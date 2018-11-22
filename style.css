@@ -47,8 +47,7 @@
 }
 .portfolio-container .card-text {
     font-size: 20px;
-    font-weight: 500;
-    font-family: 'Roboto Condensed', sans-serif;
+    
 }
 
 
@@ -95,12 +94,16 @@
     padding: 36px !important;
 }
 .healthy-hairs h4 {
-    width: 340px;
+    width: 65%;
     text-align: right;
+    margin-bottom: 16px;
+    margin-top: 16px;
 }
 .healthy-hairs p {
-    width: 340px;
+    width: 65%;
     text-align: right;
+    margin-top: 16px;
+    font-size: 20px;
 }
 .hair-image {
     background-image: url('images/hair.jpg');
@@ -114,8 +117,6 @@
 }
 
 
-@media only screen and (max-width: 600px) {
-    body {
-        background-color: lightblue;
-    }
+@media only screen and (max-width: 995px) {
+   
 }
