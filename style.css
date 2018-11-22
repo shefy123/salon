@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+.carousel {
+   
+        position: relative;
+    
+        width: 100%;
+        top: -70px;
+        z-index: -9;
+  
+}
+.navbar {
+    background-color: transparent;
+}
+
+
+.navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: 30px !important;
+    font-size: 18px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    position: relative;
+    left: 190px;
+}
+
+/* --------------------------------------portfolio ------------------------------ */
+
+
+.portfolio-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ .portfolio-container .card {
+    text-align: center;
+    width: 80%;
+    border: none;
+}
+
+.portfolio-container .card-title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 36px;
+    padding-bottom: 16px;
+}
+.portfolio-container .card-text {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.portfolio-container .btn {
+    background-color: #b08c8c;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    margin-top: 36px;
+    margin-bottom: 26px;
+    padding-left: 6px;
+    padding-right: 16px;
+    height: 50px;
+    width: 200px;
+}
+/* ---------------------------------salon image-------------------------------- */
+.salon-image {
+    background-image: url('images/salon-image.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 630px;
+    margin-left: 16px;
+    margin-right: 16px!important;
+    margin-top: 16px;
+}
+
+/* ---------------------------------hairs------------------------------------ */
+.hair {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.healthy-hairs {
+    height: 600px;
+    width: 600px;
+    background-color: #ccdcd2;
+    position: relative;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 36px !important;
+}
+.healthy-hairs h4 {
+    width: 340px;
+    text-align: right;
+}
+.healthy-hairs p {
+    width: 340px;
+    text-align: right;
+}
+.hair-image {
+    background-image: url('images/hair.jpg');
+    background-size: cover;
+    background-position: center;
+    height:400px ;
+    width: 400px;
+    position: relative;
+    top: 178px;
+    right: 120px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
