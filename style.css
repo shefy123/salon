@@ -117,10 +117,80 @@
     right: 60px;
 }
 
+/* ---------------------------------skin------------------------------------ */
+.skin {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.healthy-skin {
+    height: 600px;
+    width: 600px;
+    background-color: #ccdcd2;
+    position: relative;
+    top: 146px;
+    right: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 36px !important;
+}
+.healthy-skin h4 {
+    width: 70%;
+    position: relative;
+    left: 136px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.healthy-skin p {
+    width: 70%;
+    position: relative;
+    left: 136px;
+    margin-top: 16px;
+    font-size: 20px;
+}
+.skin-image {
+    background-image: url('images/makeup.jpg');
+    background-size: cover;
+    background-position: center;
+    height:400px ;
+    width: 400px;
+    position: relative;
+    top: 250px;
+    left:  60px;
+    z-index: 9;
+}
+@media only screen and (max-width: 991px) {
 
-@media only screen and (max-width: 995px) {
-
-
+.carousel {    
+    top: -228px !important;
+}
+.healthy-skin {
+    height: 400px;
+    width: 400px;
+}
+.healthy-skin h4 {
+    width: 80%;
+    margin: 0px;
+    left: 73px;
+}
+.healthy-skin p {
+    width: 80%;
+    line-height: normal;
+    position: relative;
+    left: 73px;
+    margin-top: 16px;
+    font-size: 16px;
+}
+.skin-image { 
+    height:250px ;
+    width: 250px; 
+    top: 220px;
+    left:  24px;
+    z-index: 9; 
+}
     .hair-image { 
         height: 250px;
         width: 250px;
@@ -144,12 +214,25 @@
         margin-bottom: 0px;
         margin-top: 8px;
         font-size: 16px;
+        line-height: normal;
     }    
 }
 
 
+
 @media only screen and (max-width: 700px ){
-  
+.healthy-skin {
+    height: 360px;
+    width: 360px;
+}
+.healthy-skin p {
+    
+    font-size: 13px;
+}
+.skin-image { 
+    height:220px ;
+    width: 220px; 
+    } 
 .portfolio-container .btn {
     padding: 8px;
     height: 40px;
@@ -187,8 +270,22 @@
 }
 
 @media only screen and (max-width: 580px ) {
-    .portfolio-container .card-title {
-      
+    .healthy-skin {
+        height: 300px;
+        width: 300px;
+        left: -39px;
+    }
+    .healthy-skin p {
+        
+        font-size: 11px;
+    }
+    .skin-image { 
+        height:200px ;
+        width: 200px; 
+        left: 40px;
+        top: 197px;
+        } 
+    .portfolio-container .card-title {  
         font-size: 26px;
         
      }
@@ -243,7 +340,25 @@
         height: 40px;
         width: 140px;
     }
-    
+    .healthy-skin {
+        height: 260px;
+        width: 260px;
+        left: -30px;
+    }
+    .healthy-skin h4 {
+     
+        left: 50px;
+    }
+    .healthy-skin p {
+        left: 50px;
+        font-size: 9px;
+    }
+    .skin-image { 
+        height: 160px;
+        width: 160px; 
+        left: 30px;
+        top: 197px;
+        } 
     .salon-image {
         height: 270px;
     }
@@ -294,11 +409,11 @@
         left: 20px;
     }
     .healthy-hairs h4 {
-        width: 85%;
+        width: 90%;
         font-size: 14px;
     }
     .healthy-hairs p {
         font-size: 8px;
-        width: 85%;    
+        width: 90%;    
     }   
 }
