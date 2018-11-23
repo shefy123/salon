@@ -169,7 +169,7 @@
     flex-wrap: wrap;
     justify-content: center;
     background-color: #ccdcd2;
-    height: 660px;
+    height: 100%;
     padding: 46px;
 }
 .team .card {
