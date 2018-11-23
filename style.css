@@ -209,6 +209,13 @@ button, html [type=button] {
 .icon {
     margin-top: 16px;
 }
+
+/* ----------------------------------------footer-------------------------------------- */
+
+.footer .card {
+    margin-top: 16px;
+    height: 300px;
+}
 @media only screen and (max-width: 995px) 
  {
 
